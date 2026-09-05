@@ -1,0 +1,6 @@
+model: yolov8n.pt
+confidence: 0.35
+image_size: 640
+device: null
+tracker: bytetrack.yaml
+output_directory: runs/inference
