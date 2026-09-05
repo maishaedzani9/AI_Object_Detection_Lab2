@@ -1,0 +1,15 @@
+# Reproducible Python 3.10/3.11 environment (CPU by default).
+torch==2.6.0
+torchvision==0.21.0
+ultralytics==8.3.78
+opencv-python==4.10.0.84
+numpy==1.26.4
+matplotlib==3.9.2
+seaborn==0.13.2
+tqdm==4.67.1
+pillow==11.1.0
+albumentations==1.4.24
+tensorboard==2.18.0
+onnx==1.17.0
+onnxruntime==1.20.1
+pytest==8.3.4
