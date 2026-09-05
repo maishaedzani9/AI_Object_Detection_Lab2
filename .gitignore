@@ -1,0 +1,39 @@
+# Virtual environments and Python caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+runs/
+logs/
+
+# Large datasets and raw media
+datasets/
+data/*
+!data/.gitkeep
+!data/sample.jpg
+*.mp4
+*.avi
+*.mov
+
+# Model checkpoints and exports
+checkpoints/
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# Local configuration
+.env
+.env.*
